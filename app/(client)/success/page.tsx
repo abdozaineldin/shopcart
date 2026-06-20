@@ -47,7 +47,7 @@ const SuccessPageContent = () => {
             <span className="text-black font-semibold">{orderNumber}</span>
           </p>
         </div>
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex item gap-4">
           <Link
             href="/"
             className="flex items-center justify-center px-4 py-3 font-semibold bg-black text-white rounded-lg hover:bg-gray-800 transition-all duration-300 shadow-md"
