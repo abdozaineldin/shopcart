@@ -14,7 +14,7 @@ import NoProductAvailable from "./NoProductAvailable";
 
 interface Props {
   categories: Category[];
-  brands: BRANDS_QUERY_RESULT[];
+  brands: BRANDS_QUERY_RESULT;
 }
 
 const Shop = ({ categories, brands }: Props) => {
